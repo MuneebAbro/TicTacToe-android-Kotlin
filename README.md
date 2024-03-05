@@ -41,14 +41,14 @@ The app allows two players to play Tic Tac Toe on a 3x3 grid. Players take turns
 -The game will display a dialog when a player wins or when the game ends in a draw.
 -Tap "Play Again" in the dialog to reset the game and play again.
 
-##Contributing
+## Contributing
 
 -Contributions are welcome! Please create a pull request with any improvements or fixes.
 
-##Licence
+## Licence
 
 -This project is licensed under the MIT License.
 
-##Developer
+## Developer
 
 -Muneeb Khan
