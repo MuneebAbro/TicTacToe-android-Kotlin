@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PlayerNameInput"
+    android:orientation="vertical"
+    android:background="@color/bg">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter Player 1 Name"
+        android:textColor="@color/light_blue"
+        android:textSize="30sp"
+        android:fontFamily="@font/nunito_bold"
+        android:layout_marginStart="36dp"
+        android:layout_marginEnd="36dp"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:layout_marginTop="100dp"
+
+        app:drawableLeftCompat="@drawable/ic_baseline_close_24">
+
+    </TextView>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/outlinedTextField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Player 1"
+        app:hintTextColor="@color/white"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginRight="36dp"
+        app:cursorColor="@color/light_blue"
+        android:textColorHint="@color/white"
+        app:boxStrokeColor="@color/light_blue"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/playerOne"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:fontFamily="@font/nunito"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter Player 2 \nName"
+        android:textColor="@color/light_blue"
+        android:textSize="30sp"
+        android:fontFamily="@font/nunito_bold"
+        android:layout_marginStart="36dp"
+        android:layout_marginEnd="36dp"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:layout_marginTop="50dp"
+        app:drawableLeftCompat="@drawable/ic_baseline_panorama_fish_eye_24">
+
+    </TextView>
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/outlinedTextField2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Player 2"
+        app:hintTextColor="@color/white"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginRight="36dp"
+        app:cursorColor="@color/light_blue"
+        android:textColorHint="@color/white"
+        app:boxStrokeColor="@color/light_blue"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/playerTwo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:fontFamily="@font/nunito"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/okBtn"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginTop="36dp"
+        android:layout_gravity="center"
+        android:background="@drawable/ok_button"
+        android:text="PLAY"
+        android:textColor="@color/extra_dark_blue"
+        android:textSize="16sp"
+        android:fontFamily="@font/nunito_bold"
+
+        >
+
+    </androidx.appcompat.widget.AppCompatButton>
+
+
+</LinearLayout>
